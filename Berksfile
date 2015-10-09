@@ -7,3 +7,4 @@ cookbook 'kagent', github: 'karamelchef/kagent-chef', branch: 'master'
 metadata
 cookbook 'hadoop', github: 'hopshadoop/apache-hadoop-chef'
 cookbook 'flink', github: 'hopshadoop/flink-chef'
+

@@ -23,6 +23,10 @@ attribute "performance/group",
 :description => "group parameter value",
 :type => "string"
 
+attribute "performance/numworkers",
+:description => "numworkers parameter value",
+:type => "string"
+
 attribute "performance/user",
 :description => "user parameter value",
 :type => "string"
