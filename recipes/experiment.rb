@@ -2,7 +2,7 @@
 #public_ip = my_public_ip()
 
 script 'run_experiment' do
-  cwd "/home/performance"
+  cwd "/tmp"
    user node['performance']['user']
   group node['performance']['group']
   interpreter "bash"
