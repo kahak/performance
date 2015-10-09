@@ -1,0 +1,10 @@
+dependencies:
+  - recipe: performance::install
+  - recipe: performance::experiment
+    local:
+      - performance::install
+    global:
+      - generator::experiment
+      - flink::taskmanager
+
+
